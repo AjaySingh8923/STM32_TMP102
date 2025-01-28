@@ -48,19 +48,17 @@ int main(void)
         // Main loop
     }
 }
-Tick Configuration
+
+## Tick Configuration
 The HAL driver provides an API to configure the time base used by the HAL_Delay function. By default, SysTick is used, but you can configure it for other time sources if needed.
 
 To configure the tick frequency, you can use:
 
-c
-Copy
 HAL_SetTickFreq(HAL_TICK_FREQ_1KHZ); // Set tick frequency to 1kHz
-Time Delay
+
+##Time Delay
 You can use the HAL_Delay function to create a blocking delay in milliseconds. The delay is based on the configured tick frequency:
 
-c
-Copy
 HAL_Delay(1000); // Delay for 1000 milliseconds
 HAL Control Functions
 The HAL driver also provides control functions for debugging, enabling/disabling the debug module during different low-power modes, and retrieving device identifiers.
