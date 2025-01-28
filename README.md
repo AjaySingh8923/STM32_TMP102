@@ -49,15 +49,10 @@ int main(void)
     }
 }
 
-## Tick Configuration
+**## Tick Configuration**
 The HAL driver provides an API to configure the time base used by the `HAL_Delay` function. By default, SysTick is used, but you can configure it for other time sources if needed.
 
 To configure the tick frequency, you can use:
 
 ```c
 HAL_SetTickFreq(HAL_TICK_FREQ_1KHZ); // Set tick frequency to 1kHz
-
-
-
-This Markdown code will properly format your **Tick Configuration** section when rendered on GitHub or any Markdown viewer.
-
