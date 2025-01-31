@@ -1,5 +1,5 @@
 /*
- * This is the publisher code for CDAC students of ACTS Batch to work with MQTT protocol
+
  * Install Library PubSubClient by Nick O'Leary
  * https://www.arduino.cc/reference/en/libraries/pubsubclient/
  * https://www.arduino.cc/reference/en/libraries/wifi/
